@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Link back to home search page-->
+        <div id="header-link">
+            <a href="index.html">Google Search</a>
+        </div>
+
+        <!--Google logo (image sourced from https://en.wikipedia.org/wiki/Google_logo#/media/File:Google_2015_logo.svg) and text-->
+        <div>
+            <img src="googlelogo_color_272x92dp.png" alt="Google Logo" float="left" width=150px height=50px>
+            <h3>Advanced Search</h3>
+        </div>
+
+        <!--Search bars (structured via a table)-->
+        <div>
+            <form action="https://google.com/search">
+                <h4>Find pages with...</h4>
+                
+                <table>
+                    <tbody>
+                        <!--Search for "all these words:"-->
+                        <tr>
+                            <td><label>all these words:</label></td>
+                            <td><input type="text" name="as_q" class="textbox"></td>
+                        </tr>
+
+                        <!--Search for "this exact word or phrase:"-->
+                        <tr>
+                            <td><label>this exact word or phrase: </label></td>
+                            <td><input type="text" name="as_epq" class="textbox"> </td>
+                        </tr>
+
+                        <!--Search for "any of these words:"-->
+                        <tr>
+                            <td><label>any of these words: </label></td>
+                            <td><input type="text" name="as_oq" class="textbox"> </td>
+                        </tr>
+
+                        <!--Search for "none of these words:"-->
+                        <tr>
+                            <td><label>none of these words: </label></td>
+                            <td><input type="text" name="as_eq" class="textbox"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <input type="submit" value="Google Search" id="adv-search-button" class="button">
+            </form>
+        </div>
+    </body>
+</html>

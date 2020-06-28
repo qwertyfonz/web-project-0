@@ -1,0 +1,114 @@
+/***********
+Google logo
+***********/
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    size: 85%;
+}
+
+/**************************
+Header links to other pages
+***************************/
+
+#header-link {
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+a {
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/********************
+Searchbar and buttons
+********************/
+form {
+    text-align: center;   
+    margin: auto;
+    padding: 25px;
+    height: 50px;
+}
+
+#searchbar {
+    padding-left: 12px;
+    width: 450px;
+    font-size: 12pt;
+    height: 28px;
+    border-radius: 20px;
+    /*border-color: inherit; */
+    text-align: left;
+    outline: none;
+}
+
+.button {
+    background-color: rgb(243, 243, 243);
+    color: grey;
+    width: 115px;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    font-size: 11.5px;
+    margin: 4px 3px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: lightgrey;
+    transition: background-color 0.5s;
+}
+
+
+/*******************
+Advanced Search page
+*******************/
+
+h3 {
+    text-align: left;
+    font-family: "Times New Roman";
+    padding-left: 25px;
+    color: #db4437;
+}
+
+h4 {
+    text-align: left;
+    color: black;
+    font-family: "Times New Roman";
+}
+
+
+td {
+    text-align: left;
+    border: 1px black;
+}
+
+.textbox {
+    width: 400px;
+    height: 20px;
+    outline: none;
+
+}
+
+#adv-search-button {
+    background-color: #4285F4; 
+    color: white; 
+    font-weight: 700; 
+    position: relative; 
+    margin-top: 20px; 
+    margin-right: 190px;   
+}
+
+
+
